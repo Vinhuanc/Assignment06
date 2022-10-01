@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36C0055B28E7B1DC00722402 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C0055A28E7B1DC00722402 /* main.cpp */; };
+		36C0055B28E7B1DC00722402 /* Assign06-Prog01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C0055A28E7B1DC00722402 /* Assign06-Prog01.cpp */; };
+		36C0056A28E7C07600722402 /* Assign06-Prog02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C0056928E7C07600722402 /* Assign06-Prog02.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,16 +21,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		36C0056528E7C07600722402 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		36C0055728E7B1DC00722402 /* Assignment06 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment06; sourceTree = BUILT_PRODUCTS_DIR; };
-		36C0055A28E7B1DC00722402 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		36C0055A28E7B1DC00722402 /* Assign06-Prog01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assign06-Prog01.cpp"; sourceTree = "<group>"; };
 		36C0056228E7B67100722402 /* numbers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = numbers.txt; path = ../../../../../numbers.txt; sourceTree = "<group>"; };
+		36C0056728E7C07600722402 /* Assign06-Prog02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assign06-Prog02"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C0056928E7C07600722402 /* Assign06-Prog02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assign06-Prog02.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		36C0055428E7B1DC00722402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C0056428E7C07600722402 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,7 +61,8 @@
 		36C0054E28E7B1DC00722402 = {
 			isa = PBXGroup;
 			children = (
-				36C0055928E7B1DC00722402 /* Assignment06 */,
+				36C0055928E7B1DC00722402 /* Assign06-Prog01 */,
+				36C0056828E7C07600722402 /* Assign06-Prog02 */,
 				36C0055828E7B1DC00722402 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,17 +71,26 @@
 			isa = PBXGroup;
 			children = (
 				36C0055728E7B1DC00722402 /* Assignment06 */,
+				36C0056728E7C07600722402 /* Assign06-Prog02 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		36C0055928E7B1DC00722402 /* Assignment06 */ = {
+		36C0055928E7B1DC00722402 /* Assign06-Prog01 */ = {
 			isa = PBXGroup;
 			children = (
 				36C0056228E7B67100722402 /* numbers.txt */,
-				36C0055A28E7B1DC00722402 /* main.cpp */,
+				36C0055A28E7B1DC00722402 /* Assign06-Prog01.cpp */,
 			);
-			path = Assignment06;
+			path = "Assign06-Prog01";
+			sourceTree = "<group>";
+		};
+		36C0056828E7C07600722402 /* Assign06-Prog02 */ = {
+			isa = PBXGroup;
+			children = (
+				36C0056928E7C07600722402 /* Assign06-Prog02.cpp */,
+			);
+			path = "Assign06-Prog02";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +113,23 @@
 			productReference = 36C0055728E7B1DC00722402 /* Assignment06 */;
 			productType = "com.apple.product-type.tool";
 		};
+		36C0056628E7C07600722402 /* Assign06-Prog02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C0056B28E7C07600722402 /* Build configuration list for PBXNativeTarget "Assign06-Prog02" */;
+			buildPhases = (
+				36C0056328E7C07600722402 /* Sources */,
+				36C0056428E7C07600722402 /* Frameworks */,
+				36C0056528E7C07600722402 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assign06-Prog02";
+			productName = "Assign06-Prog02";
+			productReference = 36C0056728E7C07600722402 /* Assign06-Prog02 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -94,6 +140,9 @@
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					36C0055628E7B1DC00722402 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					36C0056628E7C07600722402 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -112,6 +161,7 @@
 			projectRoot = "";
 			targets = (
 				36C0055628E7B1DC00722402 /* Assignment06 */,
+				36C0056628E7C07600722402 /* Assign06-Prog02 */,
 			);
 		};
 /* End PBXProject section */
@@ -121,7 +171,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C0055B28E7B1DC00722402 /* main.cpp in Sources */,
+				36C0055B28E7B1DC00722402 /* Assign06-Prog01.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C0056328E7C07600722402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C0056A28E7C07600722402 /* Assign06-Prog02.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +311,22 @@
 			};
 			name = Release;
 		};
+		36C0056C28E7C07600722402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36C0056D28E7C07600722402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -270,6 +344,15 @@
 			buildConfigurations = (
 				36C0055F28E7B1DC00722402 /* Debug */,
 				36C0056028E7B1DC00722402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C0056B28E7C07600722402 /* Build configuration list for PBXNativeTarget "Assign06-Prog02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C0056C28E7C07600722402 /* Debug */,
+				36C0056D28E7C07600722402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
