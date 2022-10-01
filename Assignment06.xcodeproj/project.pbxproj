@@ -10,6 +10,7 @@
 		36C0055B28E7B1DC00722402 /* Assign06-Prog01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C0055A28E7B1DC00722402 /* Assign06-Prog01.cpp */; };
 		36C0056A28E7C07600722402 /* Assign06-Prog02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C0056928E7C07600722402 /* Assign06-Prog02.cpp */; };
 		36C0057528E7C6C600722402 /* Assig06-Prog03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C0057428E7C6C600722402 /* Assig06-Prog03.cpp */; };
+		36C0058028E7D1F400722402 /* Assign06-Prog04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36C0057F28E7D1F400722402 /* Assign06-Prog04.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		36C0057B28E7D1F400722402 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +60,8 @@
 		36C0056928E7C07600722402 /* Assign06-Prog02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assign06-Prog02.cpp"; sourceTree = "<group>"; };
 		36C0057228E7C6C600722402 /* Assig06-Prog03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assig06-Prog03"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C0057428E7C6C600722402 /* Assig06-Prog03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assig06-Prog03.cpp"; sourceTree = "<group>"; };
+		36C0057D28E7D1F400722402 /* Assign06-Prog04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assign06-Prog04"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C0057F28E7D1F400722402 /* Assign06-Prog04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Assign06-Prog04.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		36C0057A28E7D1F400722402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,6 +102,7 @@
 				36C0055928E7B1DC00722402 /* Assign06-Prog01 */,
 				36C0056828E7C07600722402 /* Assign06-Prog02 */,
 				36C0057328E7C6C600722402 /* Assig06-Prog03 */,
+				36C0057E28E7D1F400722402 /* Assign06-Prog04 */,
 				36C0055828E7B1DC00722402 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,6 +113,7 @@
 				36C0055728E7B1DC00722402 /* Assignment06 */,
 				36C0056728E7C07600722402 /* Assign06-Prog02 */,
 				36C0057228E7C6C600722402 /* Assig06-Prog03 */,
+				36C0057D28E7D1F400722402 /* Assign06-Prog04 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,6 +141,14 @@
 				36C0057428E7C6C600722402 /* Assig06-Prog03.cpp */,
 			);
 			path = "Assig06-Prog03";
+			sourceTree = "<group>";
+		};
+		36C0057E28E7D1F400722402 /* Assign06-Prog04 */ = {
+			isa = PBXGroup;
+			children = (
+				36C0057F28E7D1F400722402 /* Assign06-Prog04.cpp */,
+			);
+			path = "Assign06-Prog04";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +205,23 @@
 			productReference = 36C0057228E7C6C600722402 /* Assig06-Prog03 */;
 			productType = "com.apple.product-type.tool";
 		};
+		36C0057C28E7D1F400722402 /* Assign06-Prog04 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C0058128E7D1F400722402 /* Build configuration list for PBXNativeTarget "Assign06-Prog04" */;
+			buildPhases = (
+				36C0057928E7D1F400722402 /* Sources */,
+				36C0057A28E7D1F400722402 /* Frameworks */,
+				36C0057B28E7D1F400722402 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assign06-Prog04";
+			productName = "Assign06-Prog04";
+			productReference = 36C0057D28E7D1F400722402 /* Assign06-Prog04 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -192,6 +238,9 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					36C0057128E7C6C600722402 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					36C0057C28E7D1F400722402 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -212,6 +261,7 @@
 				36C0055628E7B1DC00722402 /* Assignment06 */,
 				36C0056628E7C07600722402 /* Assign06-Prog02 */,
 				36C0057128E7C6C600722402 /* Assig06-Prog03 */,
+				36C0057C28E7D1F400722402 /* Assign06-Prog04 */,
 			);
 		};
 /* End PBXProject section */
@@ -238,6 +288,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				36C0057528E7C6C600722402 /* Assig06-Prog03.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C0057928E7D1F400722402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C0058028E7D1F400722402 /* Assign06-Prog04.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +459,22 @@
 			};
 			name = Release;
 		};
+		36C0058228E7D1F400722402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36C0058328E7D1F400722402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -436,6 +510,15 @@
 			buildConfigurations = (
 				36C0057728E7C6C600722402 /* Debug */,
 				36C0057828E7C6C600722402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C0058128E7D1F400722402 /* Build configuration list for PBXNativeTarget "Assign06-Prog04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C0058228E7D1F400722402 /* Debug */,
+				36C0058328E7D1F400722402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
