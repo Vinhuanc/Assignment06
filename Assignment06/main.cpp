@@ -1,14 +1,25 @@
-//
-//  main.cpp
-//  Assignment06
-//
-//  Created by Chen, Huan on 9/30/22.
-//
+//Huan Chen Assignment06-Program01
+#include<iostream>
+#include<string>
+#include<fstream>
+using namespace std;
 
-#include <iostream>
+int main(){
+    ifstream inputFile;
+    int numbers;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    inputFile.open("/Users/hchen24/Desktop/numbers.txt");
+  
+    cout << "opening file"<<endl;
+    if(inputFile){
+        cout << "*******  Data from the file:  *******" <<endl;
+    while(inputFile >> numbers){
+        cout << numbers<< endl;
+    }
+    inputFile.close();
+    }else{
+        cout<< "Error opening the file.";
+        return 0;
+    }
+
 }
