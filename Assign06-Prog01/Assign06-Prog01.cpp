@@ -32,3 +32,18 @@ int main(){
     cout << "The average of all the numbers in the file: "<<fixed<<setprecision(3)<<avg<<"\n";
 
 }
+
+//Program #1
+//Download the “Random.txt” file (file name may differ). This file contains a long list of random numbers. Copy the file to your hard drive, place it in the same folder as the CPP file you are coding (inside the solution folder) and then write a program that opens the file, reads all the numbers from the file, and calculates the following:
+//A) The number of numbers in the file
+//B) The sum of all the numbers in the file (a running total)
+//C) The average of all the numbers in the file.
+//The program should display the number of numbers found in the file, the sum of the numbers, and the average of the numbers.
+//• You will need a text file called “Random.txt” to complete this program. You can download it from D2L. Save it in the same directory as your source file.
+//• Make sure you test for a successful file open operation, if it fails to open, display an error message – if you have trouble getting your program to open the file, please email me
+//• Use a constant to refer to the file location.
+//Sample Output (values may differ from actual results for this particular random file):
+//Number of numbers: 201
+//Sum of the numbers: 106042
+//Average of the numbers: 527.572
+//Press any key to continue . . .
