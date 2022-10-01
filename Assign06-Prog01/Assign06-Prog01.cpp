@@ -2,6 +2,7 @@
 #include<iostream>
 #include<string>
 #include<fstream>
+#include<iomanip>
 using namespace std;
 
 int main(){
@@ -28,6 +29,6 @@ int main(){
     cout<<"------------------------"<<"\n";
     cout <<"The sum of all the numbers in the file: "<< total<<"\n";
     cout << "The number of numbers in a file: "<< count<<"\n";
-    cout << "The average of all the numbers in the file: "<<avg<<"\n";
+    cout << "The average of all the numbers in the file: "<<fixed<<setprecision(3)<<avg<<"\n";
 
 }
