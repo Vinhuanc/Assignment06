@@ -10,7 +10,7 @@ double fallingDistance(double seconds){
     dist = 0.5*9.8 * (pow(seconds, 2));
     return dist;
 }
-//works, but just with the fallingDistance function
+//This is the user-entered main
 //int main(){
 //    cout << "Enter seconds";
 //    cin>>seconds;
@@ -18,6 +18,7 @@ double fallingDistance(double seconds){
 //    cout << fixed<<fixed<<setprecision(2)<<dist;
 //}
 
+//This is the loop main
 int main(){
     cout << "Seconds" << "\t\t\t" << "Distance" <<endl;
     cout <<"====================================="<<endl;
